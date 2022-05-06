@@ -47,7 +47,7 @@ function configure(api) {
   api.use('mongo');
   api.use('tracker');
   api.use('localstorage');
-  api.use('vet2pet:meteorhacks:kadira@2.30.2', 'server');
+  api.use('vet2pet:meteorhacks:kadira@2.30.3', 'server');
   api.use('kadira:flow-router@2.0.0', {weak:true});
   api.use('kadira:flow-router-ssr@3.0.0', {weak:true});
   api.use('iron:router@1.0.0', {weak:true});
